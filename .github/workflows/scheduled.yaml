@@ -1,0 +1,10 @@
+on:
+  schedule:
+  - cron: '0 0 * * *' # Runs every day at midnight UTC
+
+jobs:
+  daily_task:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print message
+      run: echo "This is a scheduled task running daily at midnight UTC."
