@@ -1,0 +1,8 @@
+{
+  "name": "ghactions",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "bash src/test.sh"
+  },
+  "dependencies": {}
+}
